@@ -1,0 +1,29 @@
+{
+    "name": "larapay/payu",
+    "description": "Payu Payment Gateway Ready To Use",
+    "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pratik Sahu",
+      "email": "pratiksahu1535@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^8.0|^9.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Larapay\\Payu\\": "payu/src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Larapay\\Payu\\LarapayServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
+}
